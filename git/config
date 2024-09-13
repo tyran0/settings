@@ -1,0 +1,15 @@
+[core]
+	editor = nvim
+[user]
+	name = tyran0
+	email = 119806764+tyran0@users.noreply.github.com
+	signingkey = /home/tyran0/.ssh/gitsignkey.tyran0.pub
+[credential]
+	helper = cache --timeout 21600
+	helper = oauth
+[init]
+	defaultBranch = main
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
